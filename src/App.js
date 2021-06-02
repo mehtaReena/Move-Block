@@ -53,18 +53,25 @@ function App() {
 
       </div>
       <div className="slider-parent" >
-        X{"(" + valueX + ")"}<input type="range" ref={valueXref} min="1" max="195" value={valueX}
+        <div>
+        <lable>  X{"(" + valueX + ") px "}</lable>
+        <input type="range" ref={valueXref} min="1" max="246" value={valueX}
           onChange={onChangeX}
         />
-        X{"(" + valueY + ")"}<input type="range" ref ={valueYref} min="1" max="195" value={valueY}
+        </div>
+        <div>
+        <lable>X{"(" + valueY + ") px "}</lable>
+        <input type="range" ref ={valueYref} min="1" max="246" value={valueY}
           onChange={onChangeY}
         />
-       Rotate   X{"(" + valueRotate + ")"} <input type="range" min="-360" ref ={rotateRef}max="360" value={valueRotate}
+        </div>
+        <div>
+      <lable> Rotate   X{"(" + valueRotate + ")  deg "} </lable>
+       <input type="range" min="-360" ref ={rotateRef}max="360" value={valueRotate}
               onChange={onChangeRotate}
         />
-        <div className="buble">
-
         </div>
+
       </div>
 
     </div>
