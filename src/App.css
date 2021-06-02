@@ -28,6 +28,7 @@
   height: 100px;
   background-color: white;
   border-radius: 7px;;
+  position: relative;
 
 }
 .slider-parent{

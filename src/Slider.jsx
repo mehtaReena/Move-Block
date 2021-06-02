@@ -14,7 +14,7 @@ function Slider(props) {
     return (
 
 
-        <div className="slider-parent">
+        <div className="slider-parent" >
       X{"("+valueX +")"}<input type="range" min="1" max="500" value={valueX}
          onChange={({ target: { valueX: radius } }) => {
                     onChangeX(radius);
