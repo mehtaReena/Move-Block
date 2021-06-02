@@ -54,19 +54,19 @@ function App() {
       </div>
       <div className="slider-parent" >
         <div>
-        <lable>  X{"(" + valueX + ") px "}</lable>
+        <lable>  X{"(" + valueX + " px) "}</lable>
         <input type="range" ref={valueXref} min="1" max="246" value={valueX}
           onChange={onChangeX}
         />
         </div>
         <div>
-        <lable>X{"(" + valueY + ") px "}</lable>
+        <lable>X{"(" + valueY + " px )"}</lable>
         <input type="range" ref ={valueYref} min="1" max="246" value={valueY}
           onChange={onChangeY}
         />
         </div>
         <div>
-      <lable> Rotate   X{"(" + valueRotate + ")  deg "} </lable>
+      <lable> Rotate{"(" + valueRotate + " deg )"} </lable>
        <input type="range" min="-360" ref ={rotateRef}max="360" value={valueRotate}
               onChange={onChangeRotate}
         />
